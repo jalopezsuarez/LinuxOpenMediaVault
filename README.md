@@ -50,6 +50,19 @@ apt-get --yes --auto-remove --show-upgraded \
 omv-initsystem
 ```
 
+### Extras
+```
+wget http://omv-extras.org/openmediavault-omvextrasorg_latest_all4.deb
+dpkg -i openmediavault-omvextrasorg_latest_all4.deb 
+apt-get install -f
+apt-get update
+```
+
+### Helper
+```
+omv-firstaid
+```
+
 ## RAID MIRROR USB (2 disk mirror RAID)
 ```
 apt install btrfs-tools
