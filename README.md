@@ -126,3 +126,9 @@ chmod +x airprint-generate.py
 /etc/init.d/avahi-daemon restart
 ls /etc/avahi/services/
 ```
+
+## ZFS
+```
+apt install spl-dkms zfs-dkms
+sudo modinfo zfs | grep version 
+```
